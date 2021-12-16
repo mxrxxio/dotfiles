@@ -14,9 +14,12 @@ Plug 'easymotion/vim-easymotion'
 Plug 'scrooloose/nerdtree'
 Plug 'christoomey/vim-tmux-navigator'
 Plug 'jiangmiao/auto-pairs'
-Plug 'wakatime/vim-wakatime'
+Plug 'NLKNguyen/papercolor-theme'
 
 call plug#end()
+
+set background=dark
+colorscheme PaperColor
 
 let mapleader=" "
 
@@ -24,6 +27,7 @@ let mapleader=" "
 set incsearch
 set ignorecase
 set smartcase
+set shiftwidth=4
 
 " Plug-Easymotion
 nmap <Leader>s <Plug>(easymotion-s2)
