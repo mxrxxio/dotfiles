@@ -11,15 +11,12 @@ syntax enable
 call plug#begin('~/.config/.nvim/plugged')
 
 Plug 'easymotion/vim-easymotion'
-Plug 'morhetz/gruvbox'
 Plug 'scrooloose/nerdtree'
 Plug 'christoomey/vim-tmux-navigator'
 Plug 'jiangmiao/auto-pairs'
+Plug 'wakatime/vim-wakatime'
 
 call plug#end()
-
-" Theme
-colorscheme gruvbox
 
 let mapleader=" "
 
